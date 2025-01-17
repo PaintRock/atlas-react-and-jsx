@@ -3,7 +3,7 @@ import dayImage from "../assets/day.svg";
 import eveningImage from "../assets/evening.svg";
 import nightImage from "../assets/night.svg";
 
-export function Greeting() {
+export default function Greeting() {
     const currentHour = new Date().getHours();
     let image = nightImage;
     let text = 'Good Night!';
